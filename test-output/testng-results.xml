@@ -1,25 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-05-22T12:09:41 IST" name="Default suite" finished-at="2026-05-22T12:09:47 IST" duration-ms="6867">
+  <suite started-at="2026-05-22T19:26:49 IST" name="Calculator_Suite" finished-at="2026-05-22T19:27:05 IST" duration-ms="16108">
     <groups>
     </groups>
-    <test started-at="2026-05-22T12:09:41 IST" name="Default test" finished-at="2026-05-22T12:09:47 IST" duration-ms="6867">
-      <class name="Test.Calculator.Arithmetic_operators">
-        <test-method is-config="true" signature="launch()[pri:0, instance:Test.Calculator.Arithmetic_operators@3754a4bf]" started-at="2026-05-22T12:09:41 IST" name="launch" finished-at="2026-05-22T12:09:44 IST" duration-ms="3029" status="PASS">
+    <test started-at="2026-05-22T19:26:49 IST" name="Calculator_Test" finished-at="2026-05-22T19:27:05 IST" duration-ms="16108">
+      <class name="Test.Calculator.setup">
+        <test-method is-config="true" signature="launch()[pri:0, instance:Test.Calculator.setup@33d512c1]" started-at="2026-05-22T19:26:49 IST" name="launch" finished-at="2026-05-22T19:26:51 IST" duration-ms="2857" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method signature="addition()[pri:0, instance:Test.Calculator.Arithmetic_operators@3754a4bf]" started-at="2026-05-22T12:09:44 IST" name="addition" finished-at="2026-05-22T12:09:45 IST" duration-ms="1641" status="PASS">
+      </class> <!-- Test.Calculator.setup -->
+      <class name="Test.Calculator.Arithmetic_operators">
+        <test-method signature="addition()[pri:0, instance:Test.Calculator.Arithmetic_operators@1d296da]" started-at="2026-05-22T19:26:52 IST" name="addition" finished-at="2026-05-22T19:26:53 IST" duration-ms="1796" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addition -->
-        <test-method signature="subtraction()[pri:0, instance:Test.Calculator.Arithmetic_operators@3754a4bf]" started-at="2026-05-22T12:09:45 IST" name="subtraction" finished-at="2026-05-22T12:09:47 IST" duration-ms="2055" status="PASS">
+        <test-method signature="div()[pri:0, instance:Test.Calculator.Arithmetic_operators@1d296da]" started-at="2026-05-22T19:26:53 IST" name="div" finished-at="2026-05-22T19:26:56 IST" duration-ms="2550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method signature="mul()[pri:0, instance:Test.Calculator.Arithmetic_operators@1d296da]" started-at="2026-05-22T19:26:56 IST" name="mul" finished-at="2026-05-22T19:26:58 IST" duration-ms="2007" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method signature="subtraction()[pri:0, instance:Test.Calculator.Arithmetic_operators@1d296da]" started-at="2026-05-22T19:26:58 IST" name="subtraction" finished-at="2026-05-22T19:27:00 IST" duration-ms="1972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subtraction -->
       </class> <!-- Test.Calculator.Arithmetic_operators -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Test.Calculator.trigonometricFunctions">
+        <test-method signature="cos()[pri:0, instance:Test.Calculator.trigonometricFunctions@7c7a06ec]" started-at="2026-05-22T19:27:00 IST" name="cos" finished-at="2026-05-22T19:27:02 IST" duration-ms="1592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cos -->
+        <test-method signature="sin()[pri:0, instance:Test.Calculator.trigonometricFunctions@7c7a06ec]" started-at="2026-05-22T19:27:02 IST" name="sin" finished-at="2026-05-22T19:27:03 IST" duration-ms="1585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sin -->
+        <test-method signature="tan()[pri:0, instance:Test.Calculator.trigonometricFunctions@7c7a06ec]" started-at="2026-05-22T19:27:03 IST" name="tan" finished-at="2026-05-22T19:27:05 IST" duration-ms="1530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tan -->
+      </class> <!-- Test.Calculator.trigonometricFunctions -->
+    </test> <!-- Calculator_Test -->
+  </suite> <!-- Calculator_Suite -->
 </testng-results>
