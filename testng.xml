@@ -3,7 +3,8 @@
 <suite name="Calculator_Suite">
   <test thread-count="5" name="Calculator_Test">
     <classes>
-      <class name="Test.Calculator.AppTest"/>
+      <class name="Test.Calculator.setup"/>
+      <class name="Test.Calculator.Arithmetic_operators"/>
     </classes>
   </test> <!-- Calculator_Test -->
 </suite> <!-- Calculator_Suite -->
