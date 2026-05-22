@@ -6,6 +6,7 @@
       <class name="Test.Calculator.setup"/>
       <class name="Test.Calculator.Arithmetic_operators"/>
       <class name="Test.Calculator.trigonometricFunctions"/>
+       <class name="Test.Calculator.footerLinks"/>
     </classes>
   </test> <!-- Calculator_Test -->
 </suite> <!-- Calculator_Suite -->
