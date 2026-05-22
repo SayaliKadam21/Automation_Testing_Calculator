@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Calculator_Suite">
+  <test thread-count="5" name="Calculator_Test">
+    <classes>
+      <class name="Test.Calculator.AppTest"/>
+    </classes>
+  </test> <!-- Calculator_Test -->
+</suite> <!-- Calculator_Suite -->
